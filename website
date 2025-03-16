@@ -7,16 +7,21 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
+            background-color: #00274C;
             text-align: center;
             margin: 0;
             padding: 0;
+            color: white;
         }
         header {
-            background-color: #ff6f61;
+            background-color: #0077C8;
             color: white;
             padding: 20px;
             font-size: 24px;
+        }
+        .logo {
+            width: 150px;
+            margin: 10px;
         }
         .container {
             display: flex;
@@ -31,18 +36,41 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #00274C;
         }
         .card h2 {
-            color: #ff6f61;
+            color: #0077C8;
         }
         .card p {
             font-size: 16px;
             color: #333;
         }
+        .campus-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #0077C8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #005f99;
+        }
     </style>
 </head>
 <body>
-    <header>Tri-County Technical College Resources</header>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/TCTC_Logo.png" alt="TCTC Logo" class="logo">
+        <h1>Tri-County Technical College Resources</h1>
+    </header>
+    <img src="https://www.tctc.edu/media/5301/tctc-campus.jpg" alt="Pendleton Campus" class="campus-image">
     <div class="container">
         <div class="card">
             <h2>Academic Support Center</h2>
@@ -51,6 +79,7 @@
             <p><strong>Email:</strong> academicsupport@tctc.edu</p>
             <p><strong>Phone:</strong> (864) 646-1367</p>
             <p><strong>Purpose:</strong> Provides tutoring, study groups, and academic coaching.</p>
+            <a href="mailto:academicsupport@tctc.edu" class="btn">Email</a>
         </div>
         <div class="card">
             <h2>Career Services</h2>
@@ -59,6 +88,7 @@
             <p><strong>Email:</strong> careerservices@tctc.edu</p>
             <p><strong>Phone:</strong> (864) 646-1577</p>
             <p><strong>Purpose:</strong> Helps students with resumes, job placement, and career planning.</p>
+            <a href="mailto:careerservices@tctc.edu" class="btn">Email</a>
         </div>
         <div class="card">
             <h2>Library & Research Services</h2>
@@ -67,6 +97,7 @@
             <p><strong>Email:</strong> library@tctc.edu</p>
             <p><strong>Phone:</strong> (864) 646-1750</p>
             <p><strong>Purpose:</strong> Offers books, databases, research assistance, and study spaces.</p>
+            <a href="mailto:library@tctc.edu" class="btn">Email</a>
         </div>
         <div class="card">
             <h2>Counseling & Mental Health Services</h2>
@@ -75,6 +106,7 @@
             <p><strong>Email:</strong> counseling@tctc.edu</p>
             <p><strong>Phone:</strong> (864) 646-1800</p>
             <p><strong>Purpose:</strong> Provides free mental health support and stress management resources.</p>
+            <a href="mailto:counseling@tctc.edu" class="btn">Email</a>
         </div>
         <div class="card">
             <h2>Student Life & Activities</h2>
@@ -83,7 +115,9 @@
             <p><strong>Email:</strong> studentlife@tctc.edu</p>
             <p><strong>Phone:</strong> (864) 646-1568</p>
             <p><strong>Purpose:</strong> Organizes clubs, events, and leadership programs.</p>
+            <a href="mailto:studentlife@tctc.edu" class="btn">Email</a>
         </div>
     </div>
 </body>
 </html>
+
