@@ -19,10 +19,6 @@
             padding: 20px;
             font-size: 24px;
         }
-        .logo {
-            width: 150px;
-            margin: 10px;
-        }
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -45,11 +41,6 @@
             font-size: 16px;
             color: #333;
         }
-        .campus-image {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
         .btn {
             display: inline-block;
             padding: 10px 15px;
@@ -67,10 +58,8 @@
 </head>
 <body>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/TCTC_Logo.png" alt="TCTC Logo" class="logo">
         <h1>Tri-County Technical College Resources</h1>
     </header>
-    <img src="https://www.tctc.edu/media/5301/tctc-campus.jpg" alt="Pendleton Campus" class="campus-image">
     <div class="container">
         <div class="card">
             <h2>Academic Support Center</h2>
